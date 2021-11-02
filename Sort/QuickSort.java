@@ -57,12 +57,8 @@ public class quick
         System.out.println("Array before Sorting");
         for(i=0;i<n;i++)
            System.out.println(a[i] +" ");
-        long starttime=System.nanoTime();
         quick str= new quick();
         str.sort(a,0,n-1);
-        long stoptime= System.nanoTime();
-        long elapsetime= (stoptime - starttime);
-        System.out.println("Time taken to sort array is: "+elapsetime+" nanoseconds");
         System.out.println("Sorted array is:");
         for (i=0;i<n;i++)
             System.out.println(a[i]);
