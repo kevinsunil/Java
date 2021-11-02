@@ -46,11 +46,7 @@ public class sort
   System.out.println("Array before Sorting");
   for(i=0;i<n;i++)
    System.out.println(a[i] +" ");
-  long starttime=System.nanoTime();
   MergeSort(a, 0, n);
-  long stoptime= System.nanoTime();
-  long elapsetime= (stoptime - starttime);
-  System.out.println("Time taken to sort array is: "+elapsetime+" nanoseconds");
   System.out.println("\n Sorted Numbers are : \n ");
   for(int k=0; k<=n; k++)
    System.out.println( a[k] + " ");
